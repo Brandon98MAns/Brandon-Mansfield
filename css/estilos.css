@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.fixContent {
+    max-width: 800px;
+    margin: auto;
+}
+
+.font-weight-medium {
+    font-weight: 500;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+#header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#header .navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(220, 220, 220, .5);
+    border-radius: 0 0 35px 35px;
+   
+}
+
+
+#header .navBar .logo {
+    flex-basis: 50px;
+    padding-left: 50px;
+}
+
+#header .navBar .logo img {
+    width: 100%;
+    max-width: 180px;
+    display: block;
+    border-radius: 20% 20% 20% 20%;
+}
+
+#header .navBar .nav {
+    flex-grow: 1;
+    display: inline-block;
+    width: 10%;
+    padding: 2px 4px;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.contenedor .box {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor .Servicios img {
+    width: 100%;
+    margin: auto;
+}
+
+.contenedor .box .titulo {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contenedor .box .detalles {
+    padding: 6rem 40px;
+}
+
+#footer img {
+    height: 500px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
