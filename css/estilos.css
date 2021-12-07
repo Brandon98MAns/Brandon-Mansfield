@@ -37,9 +37,14 @@ body {
     height: 75px;
     background-color: rgb(220, 220, 220, .5);
     border-radius: 0 0 35px 35px;
-   
+    transition: all 250ms ease-in-out;
 }
 
+#header .navBar:hover {
+    background-color: rgb(150, 150, 150, 1);
+    color: white;
+    height: 100px;
+}
 
 #header .navBar .logo {
     flex-basis: 50px;
@@ -66,9 +71,35 @@ body {
     margin-left: 20px;
 }
 
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.banner {
+    height: auto;
+    overflow: hidden;
+}
+
+@media all and (min-width: 780px) {
+    .banner {
+        height: 100vh;
+    }
+}
+
 .banner img {
     width: 100%;
     display: block;
+    animation-name: zoom;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .contenedor {
@@ -88,7 +119,20 @@ body {
 
 .contenedor .Servicios img {
     width: 100%;
+    transition: all 300ms ease-in-out;
     margin: auto;
+}
+
+@media all and (min-width: 300px) {
+    .contenedor .Servicios {
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    }
+    .contenedor .Servicios:hover img {
+        transform: scale(1.2);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    }
 }
 
 .contenedor .box .titulo {
@@ -104,7 +148,6 @@ body {
     height: 500px;
     width: 100%;
 }
-
 
 
 
