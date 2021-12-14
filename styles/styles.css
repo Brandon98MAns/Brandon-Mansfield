@@ -1,8 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 * {
   margin: 0;
   padding: 0;
-  background-color: #D8F8FC;
+  /*background-color: #D8F8FC;*/
 }
+#contorno{
+  display: block;
+  margin: auto;
+  padding: 20px;
+  border: solid 8px #2E4053;
+  height: 150vh;
+  width: 95%;
+}
+.bienvenida{
+padding: 80px;
+margin: auto;
+
+}
+
+.bienvenida p{
+font-family: 'Bakbak One', cursive;
+font-size: 30px;
+margin: auto;
+text-align: center;
+
+}
+
+.imagen img{
+display:block;
+margin:auto;
+border-image: black;
+}
+
+
+.contenido{
+display: block;
+justify-content: center;
+padding-top: 70px;
+}
+
+.col{
+font-family: 'Poppins', cursive;
+font-size: 20px;
+padding: 10px;
+border-radius: 15px 15px 15px 15px;
+border: solid 3px;
+text-align: center;
+width: 80px;
+height: 200px;
+border: solid;
+}
+
 
 .banner {
     height: auto;
@@ -87,7 +135,6 @@
 }
 
 #footer{
-  background-color: black;
   text-align: center;
   text-decoration-color: white;
   padding: 50px;
