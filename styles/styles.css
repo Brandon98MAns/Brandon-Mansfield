@@ -4,6 +4,29 @@
   margin: 0;
   padding: 0;
 }
+
+.container{
+  height: 100px; 
+}
+
+.carousel-caption{
+  color: #302424; 
+  font-size: 40px;
+  -webkit-text-stroke: 1px white;
+  color: black;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #contorno{
   display: block;
   margin: auto;
@@ -134,10 +157,16 @@ border: solid;
   border-color: black;
 }
 
-#footer{
+#page-content{
+  height: 150px;
+  flex: 1 0 auto;
+  background: linear-gradient(to right, #084D90, #B7D0E7);
+}
+#sticky-footer{
+  height: 100px;
+  background: linear-gradient(to right, #084D90, #B7D0E7);
+}
+.redes{
+  
   text-align: center;
-  text-decoration-color: white;
-  padding: 50px;
-  margin: auto;
-  align-self: center;
 }
