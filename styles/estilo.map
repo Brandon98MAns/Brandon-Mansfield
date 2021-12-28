@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilo.css",
+	"sources": [
+		"../scss/estilo.scss"
+	],
+	"sourcesContent": [
+		"\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}
